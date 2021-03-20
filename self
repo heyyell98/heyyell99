@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - name: anyapp1
-    server: 104.17.212.112
+    server: 198.41.212.195
     port: 443
     type: vmess
     uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
@@ -19,7 +19,7 @@ proxies:
     ws-headers:
       Host: anyapp1.xj3017.workers.dev
   - name: anyapp2
-    server: 104.16.102.214
+    server: 104.19.79.100
     port: 443
     type: vmess
     uuid: 101c4856-77f0-4af7-8388-25c3c294b338
